@@ -38,6 +38,17 @@ public class UserRepository {
         return null;
     }
 
+    public static User findByUsernameOrEmail(String identifier) {
+        if (identifier == null) return null;
+        for (User u : users) {
+            if (identifier.equalsIgnoreCase(u.getUsername()) ||
+                identifier.equalsIgnoreCase(u.getEmail())) {
+                return u;
+            }
+        }
+        return null;
+    }
+
     public static void addUser(User user) {
         users.add(user);
     }

@@ -27,26 +27,21 @@ public class AuthController {
     // --- LOGIN PROCESS (POST) ---
     @PostMapping("/login")
     public String processLogin(
-            @RequestParam("username") String username,
+            @RequestParam("username") String usernameOrEmail,
             @RequestParam("password") String password,
-            @RequestParam("role") String roleStr,
             Model model,
             HttpSession session) {
 
-        Role role = Role.valueOf(roleStr);
+        // find by username or email
+        User user = UserRepository.findByUsernameOrEmail(usernameOrEmail);
 
-        User user = UserRepository.findByUsernameAndPasswordAndRole(username, password, role);
-
-        if (user == null) {
-            model.addAttribute("error", "Invalid username/password/role");
-            model.addAttribute("roles", Role.values());
+        if (user == null || !user.getPassword().equals(password)) {
+            model.addAttribute("error", "Invalid username or password");
             return "/auth/login";
         }
 
-        // store user in session
         session.setAttribute("loggedInUser", user);
 
-        // redirect based on role
         switch (user.getRole()) {
             case STUDENT:
                 return "redirect:/student/home";

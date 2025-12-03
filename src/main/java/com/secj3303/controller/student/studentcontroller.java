@@ -32,7 +32,7 @@ public class studentcontroller {
         model.addAttribute("user", loggedInUser);
         
         // Render the student homepage
-        return "/student/peer";  // => /WEB-INF/views/student/home.jsp
+        return "/student/home";  // => /WEB-INF/views/student/home.jsp
     }
 
     // --- STUDENT PROFILE PAGE (GET) ---
@@ -85,6 +85,12 @@ public class studentcontroller {
     public String showNewPostPage(Model model) {
         // Add model attributes if needed
         return "/student/new-post"; // Resolves to /WEB-INF/views/student/new-post.jsp
+    }
+
+    @GetMapping("/forum")
+    public String showForumPage(Model model) {
+        // Add model attributes if needed
+        return "/student/peer"; // Resolves to /WEB-INF/views/student/new-post.jsp
     }
 
     private ChatbotModel chatbotModel = new ChatbotModel();

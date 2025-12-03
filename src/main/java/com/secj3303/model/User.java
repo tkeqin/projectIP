@@ -1,6 +1,7 @@
 package com.secj3303.model;
 
 public class User {
+    static private int id = 0;
     private String username;
     private String password;
     private String fullName;
@@ -10,6 +11,7 @@ public class User {
     public User() {}
 
     public User(String username, String password, String fullName, String email, Role role) {
+        User.id++;
         this.username = username;
         this.password = password;
         this.fullName = fullName;
@@ -18,6 +20,11 @@ public class User {
     }
 
     // Getters & Setters
+    public int getId() {
+        return id;
+    }
+
+    
     public String getUsername() {
         return username;
     }

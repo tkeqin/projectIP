@@ -502,7 +502,7 @@
                     <span>⭐</span> Popular
                 </button>
             </div>
-            <button class="new-post-btn" onclick="window.location.href='${pageContext.request.contextPath}/forum/new-post'">
+            <button class="new-post-btn" onclick="window.location.href='${pageContext.request.contextPath}/student/new-post'">
                 + New Post
             </button>
         </div>

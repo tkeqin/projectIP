@@ -1,4 +1,5 @@
 com\secj3303\model\StudentDashboard.class
+<<<<<<< Updated upstream
 com\secj3303\controller\VirtualSesController.class
 com\secj3303\model\ChatbotModel.class
 com\secj3303\controller\admin\admincontroller.class
@@ -9,6 +10,19 @@ com\secj3303\model\UserRepository.class
 com\secj3303\model\VirtualSession.class
 com\secj3303\controller\student\studentcontroller.class
 com\secj3303\model\VirtualSessionRepository.class
+=======
+com\secj3303\model\ChatbotModel.class
+com\secj3303\model\AssessmentResult.class
+com\secj3303\controller\admin\admincontroller.class
+com\secj3303\controller\student\AssessmentController.class
+com\secj3303\controller\HomeController.class
+com\secj3303\model\AssessmentResult$AssessmentMetrics.class
+com\secj3303\model\User.class
+com\secj3303\model\UserRepository.class
+com\secj3303\model\Assessment.class
+com\secj3303\model\AssessmentService.class
+com\secj3303\controller\student\studentcontroller.class
+>>>>>>> Stashed changes
 com\secj3303\controller\mhp\mhpcontroller.class
 com\secj3303\controller\AuthController$1.class
 com\secj3303\controller\AuthController.class

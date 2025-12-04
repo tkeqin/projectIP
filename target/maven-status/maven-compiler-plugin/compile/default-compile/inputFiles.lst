@@ -1,11 +1,15 @@
 C:\Users\kktan\Documents\internetprogramming2026\IP_PROJECT\projectIP\src\main\java\com\secj3303\controller\HomeController.java
 C:\Users\kktan\Documents\internetprogramming2026\IP_PROJECT\projectIP\src\main\java\com\secj3303\model\MhpSlotRepository.java
+C:\Users\kktan\Documents\internetprogramming2026\IP_PROJECT\projectIP\src\main\java\com\secj3303\model\AssessmentResult.java
 C:\Users\kktan\Documents\internetprogramming2026\IP_PROJECT\projectIP\src\main\java\com\secj3303\model\UserRepository.java
 C:\Users\kktan\Documents\internetprogramming2026\IP_PROJECT\projectIP\src\main\java\com\secj3303\controller\mhp\mhpcontroller.java
 C:\Users\kktan\Documents\internetprogramming2026\IP_PROJECT\projectIP\src\main\java\com\secj3303\controller\AuthController.java
+C:\Users\kktan\Documents\internetprogramming2026\IP_PROJECT\projectIP\src\main\java\com\secj3303\controller\student\AssessmentController.java
 C:\Users\kktan\Documents\internetprogramming2026\IP_PROJECT\projectIP\src\main\java\com\secj3303\model\ChatbotModel.java
 C:\Users\kktan\Documents\internetprogramming2026\IP_PROJECT\projectIP\src\main\java\com\secj3303\model\Role.java
 C:\Users\kktan\Documents\internetprogramming2026\IP_PROJECT\projectIP\src\main\java\com\secj3303\model\User.java
+C:\Users\kktan\Documents\internetprogramming2026\IP_PROJECT\projectIP\src\main\java\com\secj3303\model\Assessment.java
+C:\Users\kktan\Documents\internetprogramming2026\IP_PROJECT\projectIP\src\main\java\com\secj3303\model\AssessmentService.java
 C:\Users\kktan\Documents\internetprogramming2026\IP_PROJECT\projectIP\src\main\java\com\secj3303\model\VirtualSession.java
 C:\Users\kktan\Documents\internetprogramming2026\IP_PROJECT\projectIP\src\main\java\com\secj3303\controller\student\studentcontroller.java
 C:\Users\kktan\Documents\internetprogramming2026\IP_PROJECT\projectIP\src\main\java\com\secj3303\model\StudentDashboard.java
